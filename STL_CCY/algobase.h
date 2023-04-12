@@ -102,7 +102,6 @@ unchecked_move_cat(InputIter first, InputIter last, OutputIter result, mystl::in
 	return result;
 }
 
-
 }
 
 #endif
