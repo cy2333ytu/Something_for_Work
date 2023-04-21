@@ -14,7 +14,8 @@ public:
 	Complex operator*(Complex &b);
 	Complex operator/(Complex &b);
 	
-	friend Complex operator+(int val, Complex& b);     // normal function, not a member function.
+	// normal function, not a member function.
+	friend Complex operator+(int val, Complex& b);     
 	//friend Complex operator+(Complex& b, int val);
 
 
