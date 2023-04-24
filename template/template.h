@@ -61,7 +61,8 @@ private:
 	int top;
 
 public:
-	Stack() { top = 0; };
+	// 使用列表初始化，不可行
+	Stack() { top = 0; };            
 	void push(T e);
 	T pop();
 	bool empty() {
