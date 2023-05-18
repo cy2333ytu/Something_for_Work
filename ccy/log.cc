@@ -74,7 +74,4 @@ void ConsoleLogAppender::log(LogLevel::Level level, LogEvent::ptr event){
         std::cout << m_formatter->format(event);
     }
 }
-
-
-
 }
