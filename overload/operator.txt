@@ -1,0 +1,9 @@
+### operator.cpp
+关注点：进行重载时，两个 class 不同的返回类型，Complex 返回的是class，而 Cents 返回的是 value。
+
+重载的形式：
+normal function
+class_name operator+(para1,para2){
+  // do something
+  return ...
+}
