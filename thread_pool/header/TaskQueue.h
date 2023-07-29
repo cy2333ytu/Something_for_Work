@@ -3,7 +3,8 @@
 #include<pthread.h>
 
 using callback = void(*)(void* arg);
-
+//是一个函数指针 接收一个 void* arg 的参数, 返回函数指针，该指针指向的类型是void
+// 等价于   typedef void (*callback)(void* arg) 
 template<class T>
 class Task{
 public:
